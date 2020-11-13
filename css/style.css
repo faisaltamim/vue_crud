@@ -1,0 +1,41 @@
+* {
+  color: #333;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+.user {
+  width: 80%;
+  background-color: #f1f1f1;
+  padding: 30px 50px;
+  border-radius: 5px;
+  margin: 0px auto;
+}
+.user h1 {
+  padding: 15px 20px;
+  text-align: center;
+  background: rgb(0, 153, 255);
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.btn {
+  padding: 6px 12px;
+  color: white;
+  background: rgb(0, 153, 255);
+  font-size: 16px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 3px;
+  margin: 20px 0px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table th,
+table tr,
+table td {
+  padding: 10px 15px;
+  text-align: center;
+}
