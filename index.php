@@ -20,14 +20,18 @@
                 <th>Name</th>
                 <th>Email</th>
                 <th>Password</th>
+                <th>Action</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>1</td>
-                <td>Faisal Tamim</td>
-                <td>mdf41401@gmail.com</td>
-                <td>faisal12345678</td>
+              <tr v-for="user in vueUsers">
+                <td>{{user.id}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.email}}</td>
+                <td>{{user.password}}</td>
+                <td>
+                  <a href="">Edit</a> | <a href="">Delete</a>
+                </td>
               </tr>
             </tbody>
           </table>
