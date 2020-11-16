@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+
 .user {
   width: 80%;
   background-color: #f1f1f1;
@@ -11,6 +12,7 @@
   border-radius: 5px;
   margin: 0px auto;
 }
+
 .user h1 {
   padding: 15px 20px;
   text-align: center;
@@ -19,23 +21,134 @@
   margin-bottom: 30px;
   color: #fff;
 }
+
 .btn {
   padding: 6px 12px;
-  color: white;
-  background: rgb(0, 153, 255);
+
   font-size: 16px;
   cursor: pointer;
   border: 0px;
   border-radius: 3px;
   margin: 20px 0px;
 }
+
 table {
   border-collapse: collapse;
   width: 100%;
 }
+
 table th,
 table tr,
 table td {
   padding: 10px 15px;
   text-align: center;
+}
+
+/*Modal Form */
+.formModal {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.modalContent {
+  max-width: 40%;
+  background: #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.fheader {
+  min-height: 50px;
+  background: rgb(19, 121, 238);
+  padding: 15px 25px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.title {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-family: arial;
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.closeBtn {
+  display: inline-block;
+  width: 18%;
+  text-align: right;
+  vertical-align: text-bottom;
+}
+
+.Modalbtn {
+  font-size: 18px;
+  padding: 3px 10px;
+  background-color: black;
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.fbody {
+  padding: 20px 30px;
+}
+
+.fbody input,
+.fbody label {
+  font-size: 16px;
+  font-family: arial;
+}
+.fbody label {
+  display: inherit;
+}
+
+#adduserbtn {
+  padding: 6px 25px;
+  display: inline-block;
+  background-color: rgb(23, 139, 233);
+  color: #fff;
+  border-radius: 3px;
+  border: 0px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* message  */
+.success,
+.error {
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  font-family: arial;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.success {
+  color: #fff;
+  background: rgb(4, 97, 173);
+}
+.error {
+  color: #fff;
+  background: rgb(197, 0, 0);
+}
+.msg button {
+  float: right;
+  background: transparent;
+  border: 2px solid #f1f1f1;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  padding: 3px 10px;
 }
