@@ -49,7 +49,6 @@
         </div>
 
 
-
       <!-- add user modal -->
       <div class="formModal" v-if="userModal">
         <div class="modalContent">
@@ -129,8 +128,13 @@
                   </div>
                   <div class="submitGrp">
                     <tr>
-                      <th><input id="adduserbtn" type="submit" value="Update User"  @click="userModaledit=false;updateUser();"></th>
-                      <td></td>
+                      <th>
+                        <input id="adduserbtn" type="submit" value="Update User"  @click="userModaledit=false;updateUser();">
+                      </th>
+                    </th>
+                      <td>
+                        <input id="adduserbtn" type="submit" class="float-right btn-danger" value="Delete User"  @click="userModaledit=false;updateUser();">
+                    </td>
                     </tr>
                   </div>
                 </table>
