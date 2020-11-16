@@ -101,7 +101,7 @@ let app = new Vue({
 
     //data edit
     updateUser: function () {
-      let formUpData = this.MyFormUpData(this.form);
+      let formUpData = this.MyFormUpData(this.edit);
 
       //axios data conver in json
 
